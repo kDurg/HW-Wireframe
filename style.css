@@ -32,25 +32,19 @@ header {
 #section{
     /* background: #ebebeb;     */
     background: blue;
-    width: 495px;
+    width: 475px;
     padding-bottom: 300px;
-    margin: 20px 10px ;
-    float: none;
+    margin: 10px ;
+    float: left;
 }
 
-/* #blocks{
-    color: #ebebeb;
-    background: #777;
-    width: 495px;
-    float: left;
-
-} */
 
 #article{
     color: #ebebeb;
     background: red;
     /* background: #777; */
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
+    margin-left: 10px;
     float: left;
     width: 375px;
 }
@@ -63,24 +57,24 @@ header {
     width: 200px;
     padding: 20px;
     margin: 10px;
-    float: none;
+    float: left;
 }
 
 
-#p{
+/* #p{
     color: #ebebeb;
     /* background: #777; */
-    background: orange;
+    /* background: orange;
     width: 200px;
     padding: 20px;
     margin: 10px;
-    float: none;
-}
+    float: left; */
+/* } */
 
 
 aside {
     background: #ebebeb;    
-    width: 495px;
+    width: 300px;
     padding-bottom: 300px;
     margin: 20px 10px ;
     float: left;
@@ -89,9 +83,10 @@ aside {
 
 footer{
     background: #ebebeb;   
+    width: 100%;
     padding: 15px; 
     margin: 10px ;
-    float: left;
+    float: none;
 
 }
 
