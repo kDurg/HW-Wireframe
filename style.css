@@ -19,6 +19,8 @@ header {
     background: #ebebeb; 
     padding: 15px;  
     margin: 10px ; 
+    width: 960px;
+
 }
 
 
@@ -26,6 +28,8 @@ header {
     background: #ebebeb; 
     padding: 15px;   
     margin: 10px ;
+    width: 960px;
+
 }
 
 
@@ -33,7 +37,7 @@ header {
     /* background: #ebebeb;     */
     background: blue;
     width: 475px;
-    padding-bottom: 300px;
+    padding: 10px;
     margin: 10px ;
     float: left;
 }
@@ -42,52 +46,46 @@ header {
 #article{
     color: #ebebeb;
     background: red;
-    /* background: #777; */
-    /* padding-bottom: 150px; */
-    margin-left: 10px;
+    margin: 0 15px;
     float: left;
-    width: 375px;
+    width: 445px;
 }
 
+.innertext{
+    margin: 10px;
+    background: magenta;
+    padding: 10px
+}
 
 #h1{
     color: #ebebeb;
     /* background: #777; */
     background: purple;
-    width: 200px;
+    width: 380px;
     padding: 20px;
-    margin: 10px;
+    margin: 10px 10px 10px 12px;
     float: left;
 }
 
 
-/* #p{
-    color: #ebebeb;
-    /* background: #777; */
-    /* background: orange;
-    width: 200px;
-    padding: 20px;
-    margin: 10px;
-    float: left; */
-/* } */
-
-
 aside {
     background: #ebebeb;    
-    width: 300px;
-    padding-bottom: 300px;
-    margin: 20px 10px ;
-    float: left;
+    width: 470px;
+    padding-bottom: 249px;
+    margin: 10px 10px 20px 10px ;
+    float: right;
 }
 
 
 footer{
     background: #ebebeb;   
-    width: 100%;
+    width: 960px;
     padding: 15px; 
-    margin: 10px ;
-    float: none;
-
+    margin: 40px 10px 0px 10px;
+    /* float: none; */
+    clear: both;
 }
 
-
+#middle{
+    width: 1010px;
+}
